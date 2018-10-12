@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://picsum.photos/200/300?image=1073");
+}
+h1 {
+    background-color: rgba(255, 140, 0, 0.829);
+    float: left; 
+    color: white;
+}
+.rulesContainer {
+    clear: both;
+    background-color: beige;
+    width: 50%;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 5px;
+    color: green;
+    font-weight: bold;
+
+}
+
+#randNum-text{
+background-color: olive;
+width: 25%;
+height: 90px;
+float: left;
+}
+
+.container{
+    float: left;
+    background-color: lightblue;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+
+.imgContainer{
+    clear: both;
+}
+
+#totalScoreIs{
+    clear: both;
+    background-color: aqua;
+    float: left;
+    width: 25%;
+    margin-bottom: 5px;
+}
+#totalScore-text{
+    clear: both;
+    background-color: aqua;
+    float: left;
+    width: 25%;
+    height: 80px;
+    margin-top: 5px;
+}

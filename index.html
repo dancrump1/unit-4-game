@@ -1,0 +1,52 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collecor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+
+<body>
+
+    <h1 id="crystalCollector-text">Crystal Collector</h1>
+    <div class="rulesContainer">
+        <p class="rules">You will be given a random number at the start of the game.</p>
+        <p class="rules">There are four crystals below. By clicking on a crystal, you will add a specific amount of
+            points to your total</p>
+        <p class="rules">You win the game by matching your total score to random number, you lost the game if your
+            total score goes above the random number.</p>
+        <p class="rules">The value of the crystals will change at the start of each game!</p>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <h2 id="randNum-text"></h2>
+            <div class="container">
+                <p id="wins-text">test</p>
+                <p id="losses-text">test</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="imgContainer">
+        <button id="redGem" onclick="clickRedGem()"><img height="60px" width="60px" class="redGem" src="https://image.shutterstock.com/image-illustration/illustration-red-gem-element-creation-450w-303444827.jpg" alt="redGem"></button>
+        <button id="blueGem" onclick="clickBlueGem()"><img height="60px" width="60px" src="https://img2.cgtrader.com/items/725980/90e605129f/large/game-ready-light-blue-sapphire-diamond-precious-gem-3d-model-low-poly-obj-3ds-fbx-stl-blend-dae.jpg"
+             alt="blueGem" class="blueGem"></button>
+        <button id="yellowGem" onclick="clickYellowGem()"><img height="60px" width="60px" src="https://image.shutterstock.com/image-vector/jewerly-cartoon-stone-gem-game-450w-758194438.jpg" 
+            alt="yellowGem" class="yellowGem"></button>
+        <button id="greenGem" onclick="clickGreenGem()"><img height="60px" width="60px" src="https://img1.cgtrader.com/items/725979/fef017ff93/large/game-ready-green-emerald-diamond-precious-gem-3d-model-low-poly-obj-3ds-fbx-stl-blend-dae.jpg"
+            alt="greenGem" class="greenGem"></button>
+    </div>
+    <p id="totalScoreIs">Your total score is: </p>
+    <h3 id="totalScore-text"></h3>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
