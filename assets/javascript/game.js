@@ -4,9 +4,8 @@ var losses = 0;
 var lossesText = document.getElementById("losses-text");
 var score = 0;
 var totalScoreText = document.getElementById("totalScore-text");
-randNumStart = Math.floor(Math.random() * 50)+50;
-var randNumText = document.getElementById("randNum-text");
 
+var randNumText = document.getElementById("randNum-text");
 
 var redGemImage = document.getElementById("redGem");
 var blueGemImage = document.getElementById("blueGem");
@@ -15,7 +14,10 @@ var greenGemImage = document.getElementById("greenGem");
 
 
 function start() {
-    randNumText.textContent = randNumStart;
+
+    randNumStart = Math.floor(Math.random() * 50)+50;
+randNumText.textContent = randNumStart;
+
 
     winsText.textContent = "Wins: " + wins;
     lossesText.textContent = "Losses: " + losses;
@@ -31,11 +33,10 @@ function start() {
     blueGemImage = randNum2;
     yellowGemImage = randNum3;
     greenGemImage = randNum4;
-
-    console.log(greenGemImage);
     console.log(redGemImage);
     console.log(blueGemImage);
     console.log(yellowGemImage);
+    console.log(greenGemImage);
 };
 
 function checkScore(){
